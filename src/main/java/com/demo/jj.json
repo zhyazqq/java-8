@@ -1,0 +1,101 @@
+{
+	"code": 200,
+	"message": "success",
+	"data": {
+		"map": {
+		"map": {
+		"map": {
+			"list": [
+				{
+					"restype": "sql",
+					"count": 10
+				},
+				{
+					"restype": "nosql",
+					"count": 10
+				},
+				{
+					"restype": "file",
+					"count": 10
+				},
+				{
+					"restype": "ts",
+					"count": 10
+				},
+				{
+					"restype": "all",
+					"count": 10
+				},
+				{
+					"restype": "noStatus",
+					"count": 10
+				}
+			],
+			"table": [
+				{
+					"restype": "sql",
+					"endpoint": "192.168.11.37:3306",
+					"database": "xxxxxxxxxx",
+					"password": "xxxxxxxxxx",
+					"createtime": "15748700000550",
+					"driver": "com.mysql.cj.jdbc.Driver",
+					"description": "xxx",
+					"id": 13,
+					"resname": "test",
+					"update": "15748706600550",
+					"userbane": "xxxxxxxxxxx",
+					"status": "0"
+				},
+				{
+					"restype": "sql",
+					"sqlType": 1,
+					"resname": "test",
+					"tableName": "xxxxxxxxxx",
+					"sql": "15748700000550",
+					"id": 13
+				},
+				{
+					"restype": "sql",
+					"endpoint": "192.168.11.37:3306",
+					"database": "xxxxxxxxxx",
+					"password": "xxxxxxxxxx",
+					"driver": "com.mysql.cj.jdbc.Driver",
+					"description": "xxx",
+					"resname": "test",
+					"userbane": "xxxxxxxxxxx"
+				},
+				{
+					"restype": "sql",
+					"endpoint": "192.168.11.37:3306",
+					"database": "xxxxxxxxxx",
+					"password": "xxxxxxxxxx",
+					"driver": "com.mysql.cj.jdbc.Driver",
+					"description": "xxx",
+					"id": 13,
+					"resname": "test",
+					"usernane": "xxxxxxxxxxx"
+				},
+				{
+					"restype": "sql",
+					"pageSize": 20,
+					"pageNum": 2,
+					"sort": "",
+					"status": "",
+					"sqlTypeEnums": [
+						""
+					],
+					"fuzzyQueryName": "",
+					"fuzzyLink": "",
+					"fuzzyQuery": ""
+				},
+				{
+					"endpoint": "192.168.11.37:3306",
+					"database": "xxxxxxxxxx",
+					"password": "xxxxxxxxxx",
+					"driver": "com.mysql.cj.jdbc.Driver",
+					"userbane": "xxxxxxxxxxx"
+				}
+			]
+			
+	}
+	}

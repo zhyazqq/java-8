@@ -1,13 +1,11 @@
 package main.java.com.demo;
 
 import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.util.Enumeration;
 
 public class IPConnectionTest {
 	public static void main(String[] args) {
 		try {
-			InetAddress address = InetAddress.getByName("192.168.11.178");
+			InetAddress address = InetAddress.getByName("192.168.10.104");
 			System.out.println(address);
 			if (address instanceof java.net.Inet4Address) {
 				System.out.println("地址为ip4");
@@ -19,7 +17,7 @@ public class IPConnectionTest {
 			
 			
 			if (address.isReachable(3000)) {
-				System.out.println("success");
+				System.out.println("success----已连通");
 			} else {
 				System.out.println("failure---未连通");
 			}
